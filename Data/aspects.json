@@ -1,0 +1,620 @@
+[{
+		"id": "01",
+		"name": "Acidic",
+		"type": "4",
+		"1": "Converts 10% Part Damage into Wound Damage",
+		"2": "Converts 15% Part Damage into Wound Damage",
+		"3": "Converts 20% Part Damage into Wound Damage",
+		"4": "Converts 30% Part Damage into Wound Damage",
+		"5": "Converts 40% Part Damage into Wound Damage",
+		"6": "Converts 50% Part Damage into Wound Damage"
+
+	},
+	{
+		"id": "02",
+		"name": "Aetheric Attunement",
+		"type": "5",
+		"1": "+10% Lantern Charge",
+		"2": "+20% Lantern Charge",
+		"3": "+40% Lantern Charge",
+		"4": "+60% Lantern Charge",
+		"5": "+80% Lantern Charge",
+		"6": "+100% Lantern Charge"
+
+	},
+
+	{
+		"id": "03",
+		"name": "Aetheric Frenzy",
+		"type": "5",
+		"1": "+1.0 Lantern Charge on Hit",
+		"2": "+2.0 Lantern Charge on Hit",
+		"3": "+4.0 Lantern Charge on Hit",
+		"4": "+6.0 Lantern Charge on Hit",
+		"5": "+8.0 Lantern Charge on Hit",
+		"6": "+10.0 Lantern Charge on Hit"
+
+
+	},
+	{
+
+		"id": "04",
+		"name": "Aetherborne",
+		"type": "5",
+		"1": "25% chance not to consume an Aether Vent charge on use. 25 additional Aether Vent healing",
+		"2": "25% chance not to consume an Aether Vent charge on use. 50 additional Aether Vent healing",
+		"3": "25% chance not to consume an Aether Vent charge on use. 75 additional Aether Vent healing",
+		"4": "25% chance not to consume an Aether Vent charge on use. 100 additional Aether Vent healing",
+		"5": "25% chance not to consume an Aether Vent charge on use. 150 additional Aether Vent healing",
+		"6": "25% chance not to consume an Aether Vent charge on use. 200 additional Aether Vent healing"
+	},
+
+	{
+		"id": "05",
+		"name": "Aetherhunter",
+		"type": "3",
+		"1": "105% Damage vs Aether-charged Behemoths",
+		"2": "110% Damage vs Aether-charged Behemoths",
+		"3": "120% Damage vs Aether-charged Behemoths",
+		"4": "130% Damage vs Aether-charged Behemoths",
+		"5": "140% Damage vs Aether-charged Behemoths",
+		"6": "150% Damage vs Aether-charged Behemoths"
+	}, {
+
+		"id": "06",
+		"name": "Agility",
+		"type": "2",
+		"1": "-5% Dodge Roll Stamina Cost",
+		"2": "-10% Dodge Roll Stamina Cost",
+		"3": "-20% Dodge Roll Stamina Cost",
+		"4": "-35% Dodge Roll Stamina Cost",
+		"5": "-50% Dodge Roll Stamina Cost",
+		"6": "-70% Dodge Roll Stamina Cost"
+	}, {
+		"id": "07",
+		"name": "Assassin Vigor",
+		"type": "1",
+		"1": "Heal 50 when you break a part",
+		"2": "Heal 100 when you break a part",
+		"3": "Heal 150 when you break a part",
+		"4": "Heal 200 when you break a part",
+		"5": "Heal 250 when you break a part",
+		"6": "Heal 300 when you break a part"
+	}, {
+		"id": "08",
+		"name": "Barbed",
+		"type": "4",
+		"1": "+5 Wound Damage on Hit",
+		"2": "+10 Wound Damage on Hit",
+		"3": "+15 Wound Damage on Hit",
+		"4": "+20 Wound Damage on Hit. Following a Perfect Dodge, the next attack's Wound Damage is increased by 200.",
+		"5": "+30 Wound Damage on Hit. Following a Perfect Dodge, the next attack's Wound Damage is increased by 200.",
+		"6": "+40 Wound Damage on Hit. Following a Perfect Dodge, the next attack's Wound Damage is increased by 400."
+	}, {
+		"id": "09",
+		"name": "Bladestorm",
+		"type": "4",
+		"1": "+5 Part Damage on Hit",
+		"2": "+10 Part Damage on Hit",
+		"3": "+15 Part Damage on Hit",
+		"4": "+20 Part Damage on Hit. Following a Perfect Dodge, the next attack's Part Damage is increased by 200.",
+		"5": "+30 Part Damage on Hit. Following a Perfect Dodge, the next attack's Part Damage is increased by 200.",
+		"6": "+40 Part Damage on Hit. Following a Perfect Dodge, the next attack's Part Damage is increased by 400."
+	}, {
+		"id": "10",
+		"name": "Bloodless",
+		"type": "1",
+		"1": "Reduces duration of Wounded status by 30%",
+		"2": "Reduces duration of Wounded status by 60%",
+		"3": "Immune to Wounded status",
+		"4": "Reduces effectiveness of Crippling Wounded status by 30%. Immune to Wounded status",
+		"5": "Reduces effectiveness of Crippling Wounded status by 60%. Immune to Wounded status",
+		"6": "Immune to Crippling Wound status. Immune to Wounded status"
+	}, {
+		"id": "11",
+		"name": "Conditioning",
+		"type": "2",
+		"1": "+2 Stamina Regeneration",
+		"2": "+5 Stamina Regeneration",
+		"3": "+10 Stamina Regeneration",
+		"4": "+15 Stamina Regeneration",
+		"5": "+25 Stamina Regeneration",
+		"6": "+40 Stamina Regeneration"
+	}, {
+		"id": "12",
+		"name": "Cunning",
+		"type": "4",
+		"1": "1% change to deal double damage",
+		"2": "2% change to deal double damage",
+		"3": "3% change to deal double damage",
+		"4": "5% change to deal double damage",
+		"5": "7% change to deal double damage",
+		"6": "10% change to deal double damage"
+	}, {
+		"id": "13",
+		"name": "Deconstruction",
+		"type": "3",
+		"1": "Deal 110% damage to objects created by Behemoths",
+		"2": "Deal 120% damage to objects created by Behemoths",
+		"3": "Deal 130% damage to objects created by Behemoths",
+		"4": "Deal 150% damage to objects created by Behemoths",
+		"5": "Deal 170% damage to objects created by Behemoths",
+		"6": "Deal 200% damage to objects created by Behemoths"
+	}, {
+		"id": "14",
+		"name": "Endurance",
+		"type": "2",
+		"1": "Increases Max Stamina by 5",
+		"2": "Increases Max Stamina by 10",
+		"3": "Increases Max Stamina by 15",
+		"4": "Increases Max Stamina by 25",
+		"5": "Increases Max Stamina by 35",
+		"6": "Increases Max Stamina by 50"
+	}, {
+		"id": "15",
+		"name": "Energized",
+		"type": "5",
+		"1": "+5% Weapon Charge rate",
+		"2": "+10% Weapon Charge rate",
+		"3": "+15% Weapon Charge rate",
+		"4": "+20% Weapon Charge rate",
+		"5": "+25% Weapon Charge rate",
+		"6": "+30% Weapon Charge rate"
+	}, {
+		"id": "16",
+		"name": "Evasion",
+		"type": "2",
+		"1": "Increases Dodge invulnerability windows by 7%",
+		"2": "Increases Dodge invulnerability windows by 14%",
+		"3": "Increases Dodge invulnerability windows by 21%",
+		"4": "Increases Dodge invulnerability windows by 28%",
+		"5": "Increases Dodge invulnerability windows by 35%",
+		"6": "Increases Dodge invulnerability windows by 42%"
+	}, {
+		"id": "17",
+		"name": "Evasive Fury",
+		"type": "4",
+		"1": "4% Attack Speed after a Perfect Dodge",
+		"2": "8% Attack Speed after a Perfect Dodge",
+		"3": "12% Attack Speed after a Perfect Dodge",
+		"4": "16% Attack Speed after a Perfect Dodge",
+		"5": "20% Attack Speed after a Perfect Dodge",
+		"6": "25% Attack Speed after a Perfect Dodge. Duration is doubled"
+	}, {
+		"id": "18",
+		"name": "Fireproof",
+		"type": "1",
+		"1": "Reduces duration of On Fire status by 10%",
+		"2": "Reduces duration of On Fire status by 20%",
+		"3": "Reduces duration of On Fire status by 40%",
+		"4": "Reduces duration of On Fire status by 60%",
+		"5": "Reduces duration of On Fire status by 80%",
+		"6": "Immune to being set on fire."
+	}, {
+		"id": "19",
+		"name": "Fleet Footed",
+		"type": "2",
+		"1": "Following a Dodge, Movement Speed is temporary increased by 5%",
+		"2": "Following a Dodge, Movement Speed is temporary increased by 10%",
+		"3": "Following a Dodge, Movement Speed is temporary increased by 15%",
+		"4": "Following a Dodge, Movement Speed is temporary increased by 20%",
+		"5": "Following a Dodge, Movement Speed is temporary increased by 25%",
+		"6": "Following a Dodge, Movement Speed is temporary increased by 30%"
+	}, {
+		"id": "20",
+		"name": "Fortress",
+		"type": "1",
+		"1": "Grants a 10 health shield after not getting hit for 10s",
+		"2": "Grants a 20 health shield after not getting hit for 10s",
+		"3": "Grants a 40 health shield after not getting hit for 10s",
+		"4": "Grants a 60 health shield after not getting hit for 10s",
+		"5": "Grants a 80 health shield after not getting hit for 10s",
+		"6": "Grants a 100 health shield after not getting hit for 10s"
+	}, {
+		"id": "21",
+		"name": "Insulated",
+		"type": "1",
+		"1": "Reduces duration of Shocked status by 25%",
+		"2": "Reduces duration of Shocked status by 50%",
+		"3": "Reduces duration of Shocked status by 75%",
+		"4": "Immune to Shocked status",
+		"5": "Immune to Shocked status. Reduces knockback and damage of hitting electrified shields.",
+		"6": "Immune to Shocked status. Prevents knockback and damage of hitting electrified shields."
+
+	}, {
+		"id": "22",
+		"name": "Knockout King",
+		"type": "3",
+		"1": "5% Stagger Damage",
+		"2": "10% Stagger Damage",
+		"3": "15% Stagger Damage",
+		"4": "20% Stagger Damage. Following a Perfect Dodge, the next weapon attacks Stagger is increased by 50%",
+		"5": "25% Stagger Damage. Following a Perfect Dodge, the next weapon attacks Stagger is increased by 50%",
+		"6": "30% Stagger Damage. Following a Perfect Dodge, the next weapon attacks Stagger is increased by 100%"
+	}, {
+		"id": "23",
+		"name": "Medic",
+		"type": "5",
+		"1": "When reviving an ally, they are healed an additional 10%",
+		"2": "When reviving an ally, they are healed an additional 20%",
+		"3": "When reviving an ally, they are healed an additional 30%",
+		"4": "When reviving an ally, they are healed an additional 30%. Increases revive speed dramatically",
+		"5": "When reviving an ally, they are healed an additional 50%. Increases revive speed dramatically",
+		"6": "When reviving an ally, they are healed an additional 100%. Increases revive speed dramatically. Grants a temporary 400 health shield after reviving an ally."
+	}, {
+		"id": "24",
+		"name": "Merciless",
+		"type": "4",
+		"1": "+20 Wound Damage vs Staggered Behemoths",
+		"2": "+30 Wound Damage vs Staggered Behemoths",
+		"3": "+45 Wound Damage vs Staggered Behemoths",
+		"4": "+60 Wound Damage vs Staggered Behemoths",
+		"5": "+80 Wound Damage vs Staggered Behemoths",
+		"6": "+100 Wound Damage vs Staggered Behemoths"
+	}, {
+		"id": "25",
+		"name": "Nimble",
+		"type": "2",
+		"1": "Following a Perfect Dodge, regain 5 Stamina",
+		"2": "Following a Perfect Dodge, regain 10 Stamina",
+		"3": "Following a Perfect Dodge, regain 15 Stamina",
+		"4": "Following a Perfect Dodge, regain 20 Stamina",
+		"5": "Following a Perfect Dodge, regain 25 Stamina",
+		"6": "Following a Perfect Dodge, regain 30 Stamina"
+	}, {
+		"id": "26",
+		"name": "Nine Lives",
+		"type": "1",
+		"1": "+5% chance to greatly reduce incoming damage",
+		"2": "+8% chance to greatly reduce incoming damage",
+		"3": "+12% chance to greatly reduce incoming damage",
+		"4": "+12% chance to greatly reduce incoming damage. The first time you would be knocked out, stay up and heal for 400",
+		"5": "+16% chance to greatly reduce incoming damage. The first time you would be knocked out, stay up and heal for 400",
+		"6": "+20% chance to greatly reduce incoming damage. The first time you would be knocked out, stay up and heal for 400 and become empowered for 10 seconds"
+	}, {
+		"id": "27",
+		"name": "Overpower",
+		"type": "3",
+		"1": "110% Damage vs Staggered Behemoths",
+		"2": "115% Damage vs Staggered Behemoths",
+		"3": "125% Damage vs Staggered Behemoths",
+		"4": "140% Damage vs Staggered Behemoths",
+		"5": "165% Damage vs Staggered Behemoths",
+		"6": "180% Damage vs Staggered Behemoths"
+	}, {
+		"id": "28",
+		"name": "Pacifier",
+		"type": "3",
+		"1": "+110% Stagger vs Enraged Behemoths",
+		"2": "+120% Stagger vs Enraged Behemoths",
+		"3": "+130% Stagger vs Enraged Behemoths",
+		"4": "+140% Stagger vs Enraged Behemoths",
+		"5": "+160% Stagger vs Enraged Behemoths",
+		"6": "+180% Stagger vs Enraged Behemoths"
+	}, {
+		"id": "29",
+		"name": "Rage",
+		"type": "3",
+		"1": "When under 25% health, deal 105% damage",
+		"2": "When under 25% health, deal 108% damage",
+		"3": "When under 30% health, deal 110% damage",
+		"4": "When under 30% health, deal 115% damage",
+		"5": "When under 40% health, deal 120% damage",
+		"6": "When under 50% health, deal 125% damage"
+	}, {
+		"id": "30",
+		"name": "Ragehunter",
+		"type": "3",
+		"1": "105% Damage vs Enraged Behemoths",
+		"2": "110% Damage vs Enraged Behemoths",
+		"3": "120% Damage vs Enraged Behemoths",
+		"4": "130% Damage vs Enraged Behemoths",
+		"5": "140% Damage vs Enraged Behemoths",
+		"6": "150% Damage vs Enraged Behemoths"
+	}, {
+		"id": "31",
+		"name": "Savagery",
+		"type": "4",
+		"1": "120% Damage vs Wounded Parts",
+		"2": "130% Damage vs Wounded Parts",
+		"3": "140% Damage vs Wounded Parts",
+		"4": "160% Damage vs Wounded Parts",
+		"5": "180% Damage vs Wounded Parts",
+		"6": "200% Damage vs Wounded Parts"
+	}, {
+		"id": "32",
+		"name": "Sharpened",
+		"type": "3",
+		"1": "+5% Part Damage",
+		"2": "+10% Part Damage",
+		"3": "+15% Part Damage",
+		"4": "+20% Part Damage. Following a Perfect Dodge, the next weapon attack's Part Break Damage is increased by 50%",
+		"5": "+25% Part Damage. Following a Perfect Dodge, the next weapon attack's Part Break Damage is increased by 50%",
+		"6": "+30% Part Damage. Following a Perfect Dodge, the next weapon attack's Part Break Damage is increased by 100%"
+	}, {
+		"id": "33",
+		"name": "Shellshock Resist",
+		"type": "1",
+		"1": "Reduces duration of Shell Shocked status by 10%",
+		"2": "Reduces duration of Shell Shocked status by 20%",
+		"3": "Reduces duration of Shell Shocked status by 40%",
+		"4": "Reduces duration of Shell Shocked status by 60%",
+		"5": "Reduces duration of Shell Shocked status by 80%",
+		"6": "Immune to Shell Shocked status"
+	}, {
+		"id": "34",
+		"name": "Stunning Vigor",
+		"type": "5",
+		"1": "Heal for 50 whenever a Behemoth is Staggered",
+		"2": "Heal for 75 whenever a Behemoth is Staggered",
+		"3": "Heal for 100 whenever a Behemoth is Staggered",
+		"4": "Heal for 125 whenever a Behemoth is Staggered",
+		"5": "Heal for 150 whenever a Behemoth is Staggered",
+		"6": "Heal for 200 whenever a Behemoth is Staggered"
+	}, {
+		"id": "35",
+		"name": "Sturdy",
+		"type": "1",
+		"1": "Prevents you from being staggered (60 second cooldown)",
+		"2": "Prevents you from being staggered (55 second cooldown)",
+		"3": "Prevents you from being staggered (50 second cooldown)",
+		"4": "Prevents you from being staggered (40 second cooldown)",
+		"5": "Prevents you from being staggered (30 second cooldown)",
+		"6": "Prevents you from being staggered (15 second cooldown)"
+	}, {
+		"id": "36",
+		"name": "Swift",
+		"type": "2",
+		"1": "While unsheathed, increases Movement Speed by 5%",
+		"2": "While unsheathed, increases Movement Speed by 10%",
+		"3": "While unsheathed, increases Movement Speed by 15%",
+		"4": "While unsheathed, increases Movement Speed by 20%",
+		"5": "While unsheathed, increases Movement Speed by 25%",
+		"6": "While unsheathed, increases Movement Speed by 30%. Also affects other nearby Slayers"
+	}, {
+		"id": "37",
+		"name":	"Tough",
+		"type": "1",
+		"1": "Increases Max Health by 50",
+		"2": "Increases Max Health by 100",
+		"3": "Increases Max Health by 150",
+		"4": "Increases Max Health by 250",
+		"5": "Increases Max Health by 350",
+		"6": "Increases Max Health by 500"
+	}, {
+		"id": "38",
+		"name": "Vampiric",
+		"type": "5",
+		"1": "Heal for 50 whenever a Behemoth is Wounded",
+		"2": "Heal for 75 whenever a Behemoth is Wounded",
+		"3": "Heal for 100 whenever a Behemoth is Wounded",
+		"4": "Heal for 125 whenever a Behemoth is Wounded",
+		"5": "Heal for 150 whenever a Behemoth is Wounded",
+		"6": "Heal for 200 whenever a Behemoth is Wounded"
+	}, {
+		"id": "39",
+		"name": "Warmth",
+		"type": "1",
+		"1": "Reduces duration of Frozen status by 30%",
+		"2": "Reduces duration of Frozen status by 60%",
+		"3": "Immune to being Frozen",
+		"4": "Reduces duration of Chilled status by 30%. Immune to being Frozen",
+		"5": "Reduces duration of Chilled status by 60%. Immune to being Frozen",
+		"6": "Immune to being Frozen. Immune to being Chilled."
+	}, {
+		"id": "40",
+		"name": "Weighted Strikes",
+		"type": "4",
+		"1": "+5 Stagger Damage on Hit",
+		"2": "+10 Stagger Damage on Hit",
+		"3": "+15 Stagger Damage on Hit",
+		"4": "+20 Stagger Damage on Hit. Following a Perfect Dodge, the next weapon attack's Stagger Damage is increased by 200.",
+		"5": "+30 Stagger Damage on Hit. Following a Perfect Dodge, the next weapon attack's Stagger Damage is increased by 200.",
+		"6": "+40 Stagger Damage on Hit. Following a Perfect Dodge, the next weapon attack's Stagger Damage is increased by 400. Ranged swings and missile interrupt unstable Behemoth attacks"
+	}, {
+		"id": "41",
+		"name": "Wild Frenzy",
+		"type": "4",
+		"1": "When under 25% health, increase attack speed by 5%",
+		"2": "When under 25% health, increase attack speed by 8%",
+		"3": "When under 30% health, increase attack speed by 12%",
+		"4": "When under 30% health, increase attack speed by 16%",
+		"5": "When under 40% health, increase attack speed by 20%",
+		"6": "When under 50% health, increase attack speed by 25%"
+	}
+	, {
+		"id": "42",
+		"name": "Tragic Echo",
+		"type": "10",
+		"1": "Description",
+		"2": "Description",
+		"3": "Description",
+		"4": "Description",
+		"5": "Description",
+		"6": "Description"
+	}
+	, {
+		"id": "43",
+		"name": "Sword Shockjaw",
+		"type": "10",
+		"1": "+5% Lifesteal vs Wounded parts",
+		"2": "+5% Lifesteal vs Wounded parts",
+		"3": "+5% Lifesteal vs Wounded parts",
+		"4": "+5% Lifesteal vs Wounded parts",
+		"5": "+5% Lifesteal vs Wounded parts",
+		"6": "+5% Lifesteal vs Wounded parts"
+	}
+, {
+		"id": "44",
+		"name": "Unique Shrowd",
+		"type": "10",
+		"1": "When under 20% health, deal 150% damage",
+		"2": "When under 20% health, deal 150% damage",
+		"3": "When under 20% health, deal 150% damage",
+		"4": "When under 20% health, deal 150% damage",
+		"5": "When under 20% health, deal 150% damage",
+		"6": "When under 20% health, deal 150% damage"
+	}
+	, {
+		"id": "45",
+		"name": "Unique Rezakiri",
+		"type": "10",
+		"1": "5~10% chance for attacks to Hit twice",
+		"2": "5~10% chance for attacks to Hit twice",
+		"3": "5~10% chance for attacks to Hit twice",
+		"4": "5~10% chance for attacks to Hit twice",
+		"5": "5~10% chance for attacks to Hit twice",
+		"6": "5~10% chance for attacks to Hit twice"
+	}
+	, {
+		"id": "46",
+		"name": "Sword Rezakiri",
+		"type": "10",
+		"1": "The seventh hit in a row deals +200% Part damage",
+		"2": "The seventh hit in a row deals +200% Part damage",
+		"3": "The seventh hit in a row deals +200% Part damage",
+		"4": "The seventh hit in a row deals +200% Part damage",
+		"5": "The seventh hit in a row deals +200% Part damage",
+		"6": "The seventh hit in a row deals +200% Part damage"
+	}
+	, {
+		"id": "47",
+		"name": "Exotic Feast",
+		"type": "10",
+		"1": "Deal up to 25% increased damage as your meter increases.Activate at max meter to enter Feast, dealing 75% increased damage for 15 seconds, but taking damage after each hit.Activate again during Feast to unleash an Umbral attack that can regain lost health.",
+		"2": "Deal up to 25% increased damage as your meter increases.Activate at max meter to enter Feast, dealing 75% increased damage for 15 seconds, but taking damage after each hit.Activate again during Feast to unleash an Umbral attack that can regain lost health.",
+		"3": "Deal up to 25% increased damage as your meter increases.Activate at max meter to enter Feast, dealing 75% increased damage for 15 seconds, but taking damage after each hit.Activate again during Feast to unleash an Umbral attack that can regain lost health.",
+		"4": "Deal up to 25% increased damage as your meter increases.Activate at max meter to enter Feast, dealing 75% increased damage for 15 seconds, but taking damage after each hit.Activate again during Feast to unleash an Umbral attack that can regain lost health.",
+		"5": "Deal up to 25% increased damage as your meter increases.Activate at max meter to enter Feast, dealing 75% increased damage for 15 seconds, but taking damage after each hit.Activate again during Feast to unleash an Umbral attack that can regain lost health.",
+		"6": "Deal up to 25% increased damage as your meter increases.Activate at max meter to enter Feast, dealing 75% increased damage for 15 seconds, but taking damage after each hit.Activate again during Feast to unleash an Umbral attack that can regain lost health."
+	}, {
+		"id": "48",
+		"name": "Hammer Shockjaw",
+		"type": "10",
+		"1": "Heal for 300 whenever a Behemoth is Staggered",
+		"2": "Heal for 300 whenever a Behemoth is Staggered",
+		"3": "Heal for 300 whenever a Behemoth is Staggered",
+		"4": "Heal for 300 whenever a Behemoth is Staggered",
+		"5": "Heal for 300 whenever a Behemoth is Staggered",
+		"6": "Heal for 300 whenever a Behemoth is Staggered"
+	} 
+	,{
+		"id": "49",
+		"name": "Hammer Razor",
+		"type": "10",
+		"1": "Restore 30 Stamina after reloading a shell",
+		"2": "Restore 30 Stamina after reloading a shell",
+		"3": "Restore 30 Stamina after reloading a shell",
+		"4": "Restore 30 Stamina after reloading a shell",
+		"5": "Restore 30 Stamina after reloading a shell",
+		"6": "Restore 30 Stamina after reloading a shell"
+	}
+	,{
+		"id": "50",
+		"name": "Hammer Rezakiri",
+		"type": "10",
+		"1": "The fifth hit in a row deals +100% Stagger damage",
+		"2": "The fifth hit in a row deals +100% Stagger damage",
+		"3": "The fifth hit in a row deals +100% Stagger damage",
+		"4": "The fifth hit in a row deals +100% Stagger damage",
+		"5": "The fifth hit in a row deals +100% Stagger damage",
+		"6": "The fifth hit in a row deals +100% Stagger damage"
+	}, {
+		"id": "51",
+		"name": "ChainBlades Shockjaw",
+		"type": "10",
+		"1": "+5% Lifesteal vs Wounded parts",
+		"2": "+5% Lifesteal vs Wounded parts",
+		"3": "+5% Lifesteal vs Wounded parts",
+		"4": "+5% Lifesteal vs Wounded parts",
+		"5": "+5% Lifesteal vs Wounded parts",
+		"6": "+5% Lifesteal vs Wounded parts"
+	}, {
+		"id": "52",
+		"name": "ChainBlades Rezakiri",
+		"type": "10",
+		"1": "The tenth hit in quick succession deals 150 bonus damage",
+		"2": "The tenth hit in quick succession deals 150 bonus damage",
+		"3": "The tenth hit in quick succession deals 150 bonus damage",
+		"4": "The tenth hit in quick succession deals 150 bonus damage",
+		"5": "The tenth hit in quick succession deals 150 bonus damage",
+		"6": "The tenth hit in quick succession deals 150 bonus damage"
+	},
+	{
+		"id": "53",
+		"name": "Axe Shockjaw",
+		"type": "10",
+		"1": "Heal 200 on perfectly charged vertical attacks",
+		"2": "Heal 200 on perfectly charged vertical attacks",
+		"3": "Heal 200 on perfectly charged vertical attacks",
+		"4": "Heal 200 on perfectly charged vertical attacks",
+		"5": "Heal 200 on perfectly charged vertical attacks",
+		"6": "Heal 200 on perfectly charged vertical attacks"
+	}, {
+		"id": "54",
+		"name": "Axe Razor",
+		"type": "10",
+		"1": "Combo Finishers deal 200 bonus damage",
+		"2": "Combo Finishers deal 200 bonus damage",
+		"3": "Combo Finishers deal 200 bonus damage",
+		"4": "Combo Finishers deal 200 bonus damage",
+		"5": "Combo Finishers deal 200 bonus damage",
+		"6": "Combo Finishers deal 200 bonus damage"
+	}, {
+		"id": "55",
+		"name": "Axe Rezakiri",
+		"type": "10",
+		"1": "The fourth hit in quick succession deals 150 bonus damage",
+		"2": "The fourth hit in quick succession deals 150 bonus damage",
+		"3": "The fourth hit in quick succession deals 150 bonus damage",
+		"4": "The fourth hit in quick succession deals 150 bonus damage",
+		"5": "The fourth hit in quick succession deals 150 bonus damage",
+		"6": "The fourth hit in quick succession deals 150 bonus damage"
+	}, {
+		"id": "56",
+		"name": "Pike Shockjaw",
+		"type": "10",
+		"1": "+5% Lifesteal vs Wounded parts",
+		"2": "+5% Lifesteal vs Wounded parts",
+		"3": "+5% Lifesteal vs Wounded parts",
+		"4": "+5% Lifesteal vs Wounded parts",
+		"5": "+5% Lifesteal vs Wounded parts",
+		"6": "+5% Lifesteal vs Wounded parts"
+	}, 
+	{
+		"id": "57",
+		"name": "Pike Rezakiri",
+		"type": "10",
+		"1": "The seventh hit in a row deals +200 Wound damage",
+		"2": "The seventh hit in a row deals +200 Wound damage",
+		"3": "The seventh hit in a row deals +200 Wound damage",
+		"4": "The seventh hit in a row deals +200 Wound damage",
+		"5": "The seventh hit in a row deals +200 Wound damage",
+		"6": "The seventh hit in a row deals +200 Wound damage"
+	},
+	{
+		"id": "58",
+		"name": "Exotic Rezakiri",
+		"type": "10",
+		"1": "10% chance for attacks to Hit Twice",
+		"2": "10% chance for attacks to Hit Twice",
+		"3": "10% chance for attacks to Hit Twice",
+		"4": "10% chance for attacks to Hit Twice",
+		"5": "10% chance for attacks to Hit Twice",
+		"6": "10% chance for attacks to Hit Twice"
+	},
+	{
+		"id": "59",
+		"name": "Exotic Radiant Beam",
+		"type": "10",
+		"1": "Description",
+		"2": "Description",
+		"3": "Description",
+		"4": "Description",
+		"5": "Description",
+		"6": "Description"
+	}
+			
+
+
+]

@@ -1,0 +1,432 @@
+[
+
+{
+	"id": "01",
+	"name": "Firebrand",
+	"type": "1",
+	"skill1": "29",
+	"skill1LV": "2",
+	"skill2": "05",
+	"skill2LV": "2",
+	
+	"type1": "3",
+	"type2": "1"
+
+},
+{
+	"id": "02",
+	"name": "Shockjaw",
+	"type": "1",
+	"skill1": "43",
+	"skill1LV": "1",
+	"skill2": "15",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "2"
+
+
+},
+{
+	"id": "03",
+	"name": "Ragetail",
+	"type": "1",
+	"skill1": "30",
+	"skill1LV": "2",
+	"skill2": "29",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "1"
+
+
+	
+}
+,
+{
+	"id": "04",
+	"name": "Razorwing",
+	"type":"1",
+	"skill1": "09",
+	"skill1LV": "2",
+	"skill2": "32",
+	"skill2LV": "2",
+	"type1": "4",
+	"type2": "2"
+
+}
+,
+{
+	"id": "05",
+	"name": "Shrowd",
+	"type":"1",
+	"skill1": "44",
+	"skill1LV": "1",
+	"skill2": "12",
+	"skill2LV": "2",
+	"type1": "3",
+	"type2": "5"
+
+
+}
+,
+{
+	"id": "06",
+	"name": "Rezakiri",
+	"type":"1",
+	"skill1": "45",
+	"skill1LV": "1",
+	"skill2": "46",
+	"skill2LV": "1",
+	"type1": "4",
+	"type2": "5"
+
+},
+{
+	"id": "07",
+	"name": "Shrowd Exotic",
+	"type":"1",
+	"skill1": "47",
+	"skill1LV": "1",
+	"skill2": "100",
+	"skill2LV": "1",
+	"type1": "4",
+	"type2": "5"
+
+},
+
+{
+	"id": "08",
+	"name": "Firebrand",
+	"type": "2",
+	"skill1": "29",
+	"skill1LV": "2",
+	"skill2": "05",
+	"skill2LV": "2",
+	
+	"type1": "3",
+	"type2": "1"
+
+},
+{
+	"id": "09",
+	"name": "Shockjaw",
+	"type": "2",
+	"skill1": "48",
+	"skill1LV": "1",
+	"skill2": "11",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "3"
+
+
+},
+{
+	"id": "10",
+	"name": "Ragetail",
+	"type": "2",
+	"skill1": "30",
+	"skill1LV": "2",
+	"skill2": "28",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "3"
+
+
+	
+}
+,
+{
+	"id": "11",
+	"name": "Razorwing",
+	"type":"2",
+	"skill1": "49",
+	"skill1LV": "1",
+	"skill2": "32",
+	"skill2LV": "2",
+	"type1": "4",
+	"type2": "3"
+
+}
+,
+{
+	"id": "13",
+	"name": "Shrowd",
+	"type":"2",
+	"skill1": "44",
+	"skill1LV": "1",
+	"skill2": "12",
+	"skill2LV": "2",
+	"type1": "3",
+	"type2": "5"
+
+
+}
+,
+{
+	"id": "14",
+	"name": "Rezakiri",
+	"type":"2",
+	"skill1": "50",
+	"skill1LV": "1",
+	"skill2": "46",
+	"skill2LV": "1",
+	"type1": "3",
+	"type2": "2"
+
+},
+{
+	"id": "15",
+	"name": "Firebrand",
+	"type": "3",
+	"skill1": "29",
+	"skill1LV": "2",
+	"skill2": "05",
+	"skill2LV": "2",
+	
+	"type1": "4",
+	"type2": "1"
+
+},
+{
+	"id": "16",
+	"name": "Shockjaw",
+	"type": "3",
+	"skill1": "51",
+	"skill1LV": "1",
+	"skill2": "15",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "4"
+
+
+},
+{
+	"id": "17",
+	"name": "Ragetail",
+	"type": "3",
+	"skill1": "30",
+	"skill1LV": "2",
+	"skill2": "29",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "4"
+
+
+	
+}
+,
+{
+	"id": "18",
+	"name": "Razorwing",
+	"type":"3",
+	"skill1": "09",
+	"skill1LV": "2",
+	"skill2": "32",
+	"skill2LV": "2",
+	"type1": "4",
+	"type2": "2"
+
+}
+,
+{
+	"id": "19",
+	"name": "Shrowd",
+	"type":"3",
+	"skill1": "44",
+	"skill1LV": "1",
+	"skill2": "12",
+	"skill2LV": "2",
+	"type1": "4",
+	"type2": "5"
+
+
+}
+,
+{
+	"id": "20",
+	"name": "Rezakiri",
+	"type":"3",
+	"skill1": "52",
+	"skill1LV": "1",
+	"skill2": "46",
+	"skill2LV": "1",
+	"type1": "3",
+	"type2": "4"
+
+},
+{
+	"id": "21",
+	"name": "Firebrand",
+	"type": "4",
+	"skill1": "29",
+	"skill1LV": "2",
+	"skill2": "05",
+	"skill2LV": "2",
+	
+	"type1": "3",
+	"type2": "1"
+
+},
+{
+	"id": "22",
+	"name": "Shockjaw",
+	"type": "4",
+	"skill1": "53",
+	"skill1LV": "1",
+	"skill2": "15",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "3"
+
+
+},
+{
+	"id": "23",
+	"name": "Ragetail",
+	"type": "4",
+	"skill1": "30",
+	"skill1LV": "2",
+	"skill2": "28",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "3"
+
+
+	
+}
+,
+{
+	"id": "24",
+	"name": "Razorwing",
+	"type":"4",
+	"skill1": "54",
+	"skill1LV": "2",
+	"skill2": "32",
+	"skill2LV": "2",
+	"type1": "4",
+	"type2": "3"
+
+}
+,
+{
+	"id": "25",
+	"name": "Shrowd",
+	"type":"4",
+	"skill1": "44",
+	"skill1LV": "1",
+	"skill2": "12",
+	"skill2LV": "2",
+	"type1": "3",
+	"type2": "5"
+
+
+}
+,
+{
+	"id": "26",
+	"name": "Rezakiri",
+	"type":"4",
+	"skill1": "55",
+	"skill1LV": "1",
+	"skill2": "46",
+	"skill2LV": "1",
+	"type1": "3",
+	"type2": "2"
+
+},
+{
+	"id": "27",
+	"name": "Firebrand",
+	"type": "5",
+	"skill1": "29",
+	"skill1LV": "2",
+	"skill2": "05",
+	"skill2LV": "2",
+	
+	"type1": "4",
+	"type2": "1"
+
+},
+{
+	"id": "28",
+	"name": "Shockjaw",
+	"type": "5",
+	"skill1": "56",
+	"skill1LV": "1",
+	"skill2": "15",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "4"
+
+
+},
+{
+	"id": "29",
+	"name": "Ragetail",
+	"type": "5",
+	"skill1": "30",
+	"skill1LV": "2",
+	"skill2": "29",
+	"skill2LV": "2",
+	"type1": "5",
+	"type2": "4"
+
+
+	
+}
+,
+{
+	"id": "30",
+	"name": "Razorwing",
+	"type":"5",
+	"skill1": "09",
+	"skill1LV": "2",
+	"skill2": "32",
+	"skill2LV": "2",
+	"type1": "4",
+	"type2": "2"
+
+}
+,
+{
+	"id": "31",
+	"name": "Shrowd",
+	"type":"5",
+	"skill1": "44",
+	"skill1LV": "1",
+	"skill2": "12",
+	"skill2LV": "2",
+	"type1": "4",
+	"type2": "5"
+
+
+}
+,
+{
+	"id": "32",
+	"name": "Rezakiri",
+	"type":"5",
+	"skill1": "57",
+	"skill1LV": "1",
+	"skill2": "46",
+	"skill2LV": "1",
+	"type1": "3",
+	"type2": "4"
+
+}
+,{
+	"id": "33",
+	"name": "Rezakiri",
+	"type":"5",
+	"skill1": "58",
+	"skill1LV": "1",
+	"skill2": "59",
+	"skill2LV": "1",
+	"type1": "3",
+	"type2": "4"
+
+}
+
+
+
+
+]

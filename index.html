@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Project Title</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="./Data/engine.js"></script>
+	<link href="./Data/style.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+
+
+	
+</head>
+<body>
+<div>
+<p><h2>Build Simulator</h2></p>
+</div>
+<br/>
+<br/>
+<br/>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-4">
+					 <label for="ddl_item1">Head</label>
+					<select id="ddl_item1" name="ddl_item1" class="form-control"></select>
+				</div>
+				<div class="col-md-4">
+				<label for="ddl_item1">Cell</label>
+				<select id="ddl_skill1" name="ddl_skill1" class="form-control"></select>
+				<select id="ddl_sk1_lv" name="ddl_sk1_lv" class="form-control"><option value="1">1</option> <option value="2">2</option><option value="3">3</option></select>
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-4">
+				<label for="ddl_item2">Chest</label>
+					<select id="ddl_item2" name="ddl_item2" class="form-control"></select>
+				</div>
+				<div class="col-md-4">
+				<label for="ddl_item1">Cell</label>
+				<select id="ddl_skill2" name="ddl_skill2" class="form-control"></select>
+				<select id="ddl_sk2_lv" name="ddl_sk2_lv" class="form-control"><option value="1">1</option> <option value="2">2</option><option value="3">3</option></select>
+	
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-4">
+					<label for="ddl_item3">Hand</label>
+					<select id="ddl_item3" name="ddl_item3" class="form-control"></select>
+				</div>
+				<div class="col-md-4">
+					<label for="ddl_item1">Cell</label>
+					<select id="ddl_skill3" name="ddl_skill3" class="form-control"></select>
+	
+					<select id="ddl_sk3_lv" name="ddl_sk3_lv" class="form-control"><option value="1">1</option> <option value="2">2</option><option value="3">3</option></select>
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-4">
+					<label for="ddl_item4">Leg</label>
+					<select id="ddl_item4" name="ddl_item4" class="form-control"></select>
+				</div>
+				<div class="col-md-4">
+					<label for="ddl_item1">Cell</label>
+					<select id="ddl_skill4" name="ddl_skill4" class="form-control"></select>
+	
+					<select id="ddl_sk4_lv" name="ddl_sk4_lv" class="form-control"><option value="1">1</option> <option value="2">2</option><option value="3">3</option></select>
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-4">
+					<label for="ddl_item5">Lantern</label>
+					<select id="ddl_item5" name="ddl_item5" class="form-control"></select>
+				</div>
+				<div class="col-md-4">
+					<label for="ddl_item1">Cell</label>
+					<select id="ddl_skill5" name="ddl_skill5" class="form-control"></select>
+	
+					<select id="ddl_sk5_lv" name="ddl_sk5_lv" class="form-control"><option value="1">1</option> <option value="2">2</option><option value="3">3</option></select>
+	
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-4">
+				<label for="ddl_weap_type">Weapon Type</label>
+					<select id="ddl_weap_type" name="ddl_weap_type" class="form-control">
+						<option selected="true" disabled>Please Select</option>
+						<option value="1">Sword</option> 
+						<option value="2">Hammer</option>
+						<option value="3">ChainBlades</option>
+						<option value="4">Axe</option>
+						<option value="5">Pike</option>
+					
+					</select>
+				</div>
+				<div class="col-md-4">
+					
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-4">
+					<label for="ddl_weap_type">Weapon</label>
+					<select id="ddl_item6" name="ddl_item6" class="form-control"></select>
+				</div>
+				<div class="col-md-4">
+					<label for="ddl_item1">Cell 1</label>
+					<select id="ddl_skill6" name="ddl_skill6" class="form-control"></select>
+	
+					<select id="ddl_sk6_lv" name="ddl_sk6_lv" class="form-control"><option value="1">1</option> <option value="2">2</option><option value="3">3</option></select>
+				</div>
+				<div class="col-md-4">
+				<label for="ddl_item1">Cell 2</label>
+					<select id="ddl_skill6_2" name="ddl_skill6_2" class="form-control"></select>
+	
+					<select id="ddl_sk6_2_lv" name="ddl_sk6_2_lv" class="form-control"><option value="1">1</option> <option value="2">2</option><option value="3">3</option></select>
+				
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class="col-md-6">
+			<div class="row" id="div01">
+				<div class="col-md-4">
+				<label>Acidic</label>
+				</div>
+				<div class="col-md-8">
+					<input type="text" readonly="true" id="num01" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb01" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div02">
+				<div class="col-md-4">
+				<label>Aetheric Attunement</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num02" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb02" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div03">
+				<div class="col-md-4">
+				<label>Aetheric Frenzy</label>
+				</div>
+				
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num03" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb03" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div04">
+				<div class="col-md-4">
+				<label>Aetherborne</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num04" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb04" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div05">
+				<div class="col-md-4">
+				<label>Aetherhunter</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num05" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb05" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div06">
+				<div class="col-md-4">
+				<label>Agility</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num06" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb06" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div07">
+				<div class="col-md-4">
+				<label>Assassin Vigor</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num07" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb07" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div08">
+				<div class="col-md-4">
+				<label>Barbed</label>
+				</div>
+				
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num08" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb08" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div09">
+				<div class="col-md-4">
+				<label>Bladestorm</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num09" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb09" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div10">
+				<div class="col-md-4">
+				<label>Bloodless</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num10" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb10" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div11">
+				<div class="col-md-4">
+				<label>Conditioning</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num11" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb11" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div12">
+				<div class="col-md-4">
+				<label>Cunning</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num12" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb12" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div13">
+				<div class="col-md-4">
+				<label>Deconstruction</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num13" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb13" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div14">
+				<div class="col-md-4">
+				<label>Endurance</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num14" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb14" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div15">
+				<div class="col-md-4">
+				<label>Energized</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num15" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb15" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div16">
+				<div class="col-md-4">
+				<label>Evasion</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num16" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb16" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div17">
+				<div class="col-md-4">
+				<label>Evasive Fury</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num17" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb17" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div18">
+				<div class="col-md-4">
+				<label>Fireproof</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num18" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb18" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div19">
+				<div class="col-md-4">
+				<label>Fleet Footed</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num19" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb19" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div20">
+				<div class="col-md-4">
+				<label>Fortress</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num20" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb20" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div21">
+				<div class="col-md-4">
+				<label>Insulated</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num21" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb21" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div22">
+				<div class="col-md-4">
+				<label>Knockout King</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num22" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb22" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div23">
+				<div class="col-md-4">
+				<label>Medic</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num23" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb23" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div24">
+				<div class="col-md-4">
+				<label>Merciless</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num24" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb24" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div25">
+				<div class="col-md-4">
+				<label>Nimble</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num25" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb25" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div26">
+				<div class="col-md-4">
+				<label>Nine Lives</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num26" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb26" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div27">
+				<div class="col-md-4">
+				<label>Overpower</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num27" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb27" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div28">
+				<div class="col-md-4">
+				<label>Pacifier</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num28" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb28" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row"id="div29">
+				<div class="col-md-4">
+				<label>Rage</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num29" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb29" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row"  id="div30">
+				<div class="col-md-4">
+				<label>Ragehunter</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num30" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb30" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div31">
+				<div class="col-md-4">
+				<label>Savagery</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num31" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb31" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div32">
+				<div class="col-md-4">
+				<label>Sharpened</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num32" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb32" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div33">
+				<div class="col-md-4">
+				<label>Shellshock Resist</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num33" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb33" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div34">
+				<div class="col-md-4">
+				<label>Stunning Vigor</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num34" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb34" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div35">
+				<div class="col-md-4">
+				<label>Sturdy</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num35" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb35" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div36">
+				<div class="col-md-4">
+				<label>Swift</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num36" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb36" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div37">
+				<div class="col-md-4">
+				<label>Tough</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num37" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb37" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div38">
+				<div class="col-md-4">
+				<label>Vampiric</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num38" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb38" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div39">
+				<div class="col-md-4">
+				<label>Warmth</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num39" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb39" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div40">
+				<div class="col-md-4">
+				<label>Weighted Strikes</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num40" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb40" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div41">
+				<div class="col-md-4">
+				<label>Wild Frenzy</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num41" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb41" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div42">
+				<div class="col-md-4">
+				<label>Tragic Echo</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num42" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb42" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div43">
+				<div class="col-md-4">
+				<label>Sword Shockjaw</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num43" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb43" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div44">
+				<div class="col-md-4">
+				<label>Unique Shrowd</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num44" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb44" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div45">
+				<div class="col-md-4">
+				<label>Unique Rezakiri</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num45" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb45" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div46">
+				<div class="col-md-4">
+				<label>Sword Rezakiri</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num46" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb46" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div47">
+				<div class="col-md-4">
+				<label>Exotic Feast</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num47" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb47" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div48">
+				<div class="col-md-4">
+				<label>Hammer Shockjaw</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num48" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb48" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div49">
+				<div class="col-md-4">
+				<label>Hammer Razor</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num49" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb49" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div50">
+				<div class="col-md-4">
+				<label>Hammer Rezakiri</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num50" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb50" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div51">
+				<div class="col-md-4">
+				<label>ChainBlades Shockjaw</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num51" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb51" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div52">
+				<div class="col-md-4">
+				<label>ChainBlades Rezakiri</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num52" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb52" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div53">
+				<div class="col-md-4">
+				<label>Axe Shockjaw</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num53" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb53" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div54">
+				<div class="col-md-4">
+				<label>Axe Razor</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num54" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb54" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div55">
+				<div class="col-md-4">
+				<label>Axe Rezakiri</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num55" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb55" class="skill form-control"/>
+				</div>
+			</div>
+			<div class="row" id="div56">
+				<div class="col-md-4">
+				<label>Pike Shockjaw</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num56" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb56" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div57">
+				<div class="col-md-4">
+				<label>Pike Rezakiri</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num57" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb57" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div58">
+				<div class="col-md-4">
+				<label>Exotic Rezakiri</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num58" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb58" class="skill form-control"/>
+				</div>
+			</div>
+			
+			<div class="row" id="div59">
+				<div class="col-md-4">
+				<label>Exotic Radiant Beam</label>
+				</div>
+				<div class="col-md-8">
+				<input type="text" readonly="true" id="num59" class="skillNum form-control"/>
+					<input type="text" readonly="true" id="lb59" class="skill form-control"/>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+
+	
+	
+</body>
+</html>

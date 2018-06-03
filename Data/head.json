@@ -1,0 +1,84 @@
+[
+
+{
+	"id": "01",
+	"name": "Firebrand",
+	"skill1": "15",
+	"skill1LV": "2",
+	"skill2": "18",
+	"skill2LV": "1",
+	"slot": "1"
+
+},
+{
+	"id": "02",
+	"name": "Shockjaw",
+	"skill1": "23",
+	"skill1LV": "1",
+	"skill2": "21",
+	"skill2LV": "2",
+	"slot": "5"
+
+},
+{
+	"id": "03",
+	"name": "Ragetail",
+	"skill1": "37",
+	"skill1LV": "1",
+	"skill2": "10",
+	"skill2LV": "2",
+	"slot": "1"
+
+	
+}
+,
+{
+	"id": "04",
+	"name": "Razorwing",
+	"skill1": "14",
+	"skill1LV": "2",
+	"skill2": "13",
+	"skill2LV": "1",
+	"slot": "2"
+
+}
+,
+{
+	"id": "05",
+	"name": "Shrowd",
+	"skill1": "29",
+	"skill1LV": "1",
+	"skill2": "23",
+	"skill2LV": "2",
+	"slot": "3"
+
+}
+,
+{
+	"id": "06",
+	"name": "Rezakiri",
+	"skill1": "12",
+	"skill1LV": "1",
+	"skill2": "15",
+	"skill2LV": "2",
+	"slot": "4"
+
+}
+,
+{
+	"id": "07",
+	"name": "Shrowd Exotic",
+	"skill1": "42",
+	"skill1LV": "1",
+	"skill2": "100",
+	"skill2LV": "0",
+	"slot": "3"
+
+}
+
+
+
+
+
+
+]
