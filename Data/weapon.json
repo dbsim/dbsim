@@ -2,7 +2,7 @@
 
 {
 	"id": "01",
-	"name": "Firebrand",
+	"name": "Sword Firebrand",
 	"type": "1",
 	"skill1": "29",
 	"skill1LV": "2",
@@ -15,7 +15,7 @@
 },
 {
 	"id": "02",
-	"name": "Shockjaw",
+	"name": "Sword Shockjaw",
 	"type": "1",
 	"skill1": "43",
 	"skill1LV": "1",
@@ -28,7 +28,7 @@
 },
 {
 	"id": "03",
-	"name": "Ragetail",
+	"name": "Sword Ragetail",
 	"type": "1",
 	"skill1": "30",
 	"skill1LV": "2",
@@ -43,7 +43,7 @@
 ,
 {
 	"id": "04",
-	"name": "Razorwing",
+	"name": "Sword Razorwing",
 	"type":"1",
 	"skill1": "09",
 	"skill1LV": "2",
@@ -56,7 +56,7 @@
 ,
 {
 	"id": "05",
-	"name": "Shrowd",
+	"name": "Sword Shrowd",
 	"type":"1",
 	"skill1": "44",
 	"skill1LV": "1",
@@ -70,7 +70,7 @@
 ,
 {
 	"id": "06",
-	"name": "Rezakiri",
+	"name": "Sword Rezakiri",
 	"type":"1",
 	"skill1": "45",
 	"skill1LV": "1",
@@ -95,7 +95,7 @@
 
 {
 	"id": "08",
-	"name": "Firebrand",
+	"name": "Hammer Firebrand",
 	"type": "2",
 	"skill1": "29",
 	"skill1LV": "2",
@@ -108,7 +108,7 @@
 },
 {
 	"id": "09",
-	"name": "Shockjaw",
+	"name": "Hammer Shockjaw",
 	"type": "2",
 	"skill1": "48",
 	"skill1LV": "1",
@@ -121,7 +121,7 @@
 },
 {
 	"id": "10",
-	"name": "Ragetail",
+	"name": "Hammer Ragetail",
 	"type": "2",
 	"skill1": "30",
 	"skill1LV": "2",
@@ -136,7 +136,7 @@
 ,
 {
 	"id": "11",
-	"name": "Razorwing",
+	"name": "Hammer Razorwing",
 	"type":"2",
 	"skill1": "49",
 	"skill1LV": "1",
@@ -149,7 +149,7 @@
 ,
 {
 	"id": "13",
-	"name": "Shrowd",
+	"name": "Hammer Shrowd",
 	"type":"2",
 	"skill1": "44",
 	"skill1LV": "1",
@@ -163,7 +163,7 @@
 ,
 {
 	"id": "14",
-	"name": "Rezakiri",
+	"name": "Hammer Rezakiri",
 	"type":"2",
 	"skill1": "50",
 	"skill1LV": "1",
@@ -175,7 +175,7 @@
 },
 {
 	"id": "15",
-	"name": "Firebrand",
+	"name": "ChainBlades Firebrand",
 	"type": "3",
 	"skill1": "29",
 	"skill1LV": "2",
@@ -188,7 +188,7 @@
 },
 {
 	"id": "16",
-	"name": "Shockjaw",
+	"name": "ChainBlades Shockjaw",
 	"type": "3",
 	"skill1": "51",
 	"skill1LV": "1",
@@ -201,7 +201,7 @@
 },
 {
 	"id": "17",
-	"name": "Ragetail",
+	"name": "ChainBlades Ragetail",
 	"type": "3",
 	"skill1": "30",
 	"skill1LV": "2",
@@ -216,7 +216,7 @@
 ,
 {
 	"id": "18",
-	"name": "Razorwing",
+	"name": "ChainBlades Razorwing",
 	"type":"3",
 	"skill1": "09",
 	"skill1LV": "2",
@@ -229,7 +229,7 @@
 ,
 {
 	"id": "19",
-	"name": "Shrowd",
+	"name": "ChainBlades Shrowd",
 	"type":"3",
 	"skill1": "44",
 	"skill1LV": "1",
@@ -243,7 +243,7 @@
 ,
 {
 	"id": "20",
-	"name": "Rezakiri",
+	"name": "ChainBlades Rezakiri",
 	"type":"3",
 	"skill1": "52",
 	"skill1LV": "1",
@@ -255,7 +255,7 @@
 },
 {
 	"id": "21",
-	"name": "Firebrand",
+	"name": "Axe Firebrand",
 	"type": "4",
 	"skill1": "29",
 	"skill1LV": "2",
@@ -268,7 +268,7 @@
 },
 {
 	"id": "22",
-	"name": "Shockjaw",
+	"name": "Axe Shockjaw",
 	"type": "4",
 	"skill1": "53",
 	"skill1LV": "1",
@@ -281,7 +281,7 @@
 },
 {
 	"id": "23",
-	"name": "Ragetail",
+	"name": "Axe Ragetail",
 	"type": "4",
 	"skill1": "30",
 	"skill1LV": "2",
@@ -296,7 +296,7 @@
 ,
 {
 	"id": "24",
-	"name": "Razorwing",
+	"name": "Axe Razorwing",
 	"type":"4",
 	"skill1": "54",
 	"skill1LV": "2",
@@ -309,7 +309,7 @@
 ,
 {
 	"id": "25",
-	"name": "Shrowd",
+	"name": "Axe Shrowd",
 	"type":"4",
 	"skill1": "44",
 	"skill1LV": "1",
@@ -323,7 +323,7 @@
 ,
 {
 	"id": "26",
-	"name": "Rezakiri",
+	"name": "Axe Rezakiri",
 	"type":"4",
 	"skill1": "55",
 	"skill1LV": "1",
@@ -335,7 +335,7 @@
 },
 {
 	"id": "27",
-	"name": "Firebrand",
+	"name": "Pike Firebrand",
 	"type": "5",
 	"skill1": "29",
 	"skill1LV": "2",
@@ -348,7 +348,7 @@
 },
 {
 	"id": "28",
-	"name": "Shockjaw",
+	"name": "Pike Shockjaw",
 	"type": "5",
 	"skill1": "56",
 	"skill1LV": "1",
@@ -361,7 +361,7 @@
 },
 {
 	"id": "29",
-	"name": "Ragetail",
+	"name": "Pike Ragetail",
 	"type": "5",
 	"skill1": "30",
 	"skill1LV": "2",
@@ -376,7 +376,7 @@
 ,
 {
 	"id": "30",
-	"name": "Razorwing",
+	"name": "Pike Razorwing",
 	"type":"5",
 	"skill1": "09",
 	"skill1LV": "2",
@@ -389,7 +389,7 @@
 ,
 {
 	"id": "31",
-	"name": "Shrowd",
+	"name": "Pike Shrowd",
 	"type":"5",
 	"skill1": "44",
 	"skill1LV": "1",
@@ -403,7 +403,7 @@
 ,
 {
 	"id": "32",
-	"name": "Rezakiri",
+	"name": "Pike Rezakiri",
 	"type":"5",
 	"skill1": "57",
 	"skill1LV": "1",
@@ -415,7 +415,7 @@
 }
 ,{
 	"id": "33",
-	"name": "Rezakiri",
+	"name": "Exotic Rezakiri",
 	"type":"5",
 	"skill1": "58",
 	"skill1LV": "1",
