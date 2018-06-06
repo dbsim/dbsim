@@ -64,6 +64,17 @@
 	"slot": "2"
 
 }
+,
+{
+	"id": "07",
+	"name": "Rezakiri",
+	"skill1": "20",
+	"skill1LV": "1",
+	"skill2": "39",
+	"skill2LV": "2",
+	"slot": "1"
+
+}
 
 
 ]

@@ -63,6 +63,16 @@
 	"skill2LV": "1",
 	"slot": "4"
 
+},
+{
+	"id": "07",
+	"name": "Pangar",
+	"skill1": "20",
+	"skill1LV": "2",
+	"skill2": "39",
+	"skill2LV": "1",
+	"slot": "1"
+
 }
 
 
