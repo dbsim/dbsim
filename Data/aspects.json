@@ -2,12 +2,12 @@
 		"id": "01",
 		"name": "Acidic",
 		"type": "4",
-		"1": "Converts 10% Part Damage into Wound Damage",
-		"2": "Converts 15% Part Damage into Wound Damage",
-		"3": "Converts 20% Part Damage into Wound Damage",
-		"4": "Converts 30% Part Damage into Wound Damage",
-		"5": "Converts 40% Part Damage into Wound Damage",
-		"6": "Converts 50% Part Damage into Wound Damage"
+		"1": "Converts 30% Part Damage into Wound Damage",
+		"2": "Converts 40% Part Damage into Wound Damage",
+		"3": "Converts 50% Part Damage into Wound Damage",
+		"4": "Converts 50% Part Damage into Wound Damage. +10% Part damage",
+		"5": "Converts 50% Part Damage into Wound Damage. +15% Part damage",
+		"6": "Converts 50% Part Damage into Wound Damage. +20% Part damage"
 
 	},
 	{
@@ -64,11 +64,11 @@
 		"id": "06",
 		"name": "Agility",
 		"type": "2",
-		"1": "-5% Dodge Roll Stamina Cost",
-		"2": "-10% Dodge Roll Stamina Cost",
-		"3": "-20% Dodge Roll Stamina Cost",
-		"4": "-35% Dodge Roll Stamina Cost",
-		"5": "-50% Dodge Roll Stamina Cost",
+		"1": "-10% Dodge Roll Stamina Cost",
+		"2": "-20% Dodge Roll Stamina Cost",
+		"3": "-30% Dodge Roll Stamina Cost",
+		"4": "-40% Dodge Roll Stamina Cost",
+		"5": "-55% Dodge Roll Stamina Cost",
 		"6": "-70% Dodge Roll Stamina Cost"
 	}, {
 		"id": "07",
@@ -114,12 +114,12 @@
 		"id": "11",
 		"name": "Conditioning",
 		"type": "2",
-		"1": "+2 Stamina Regeneration",
-		"2": "+5 Stamina Regeneration",
-		"3": "+10 Stamina Regeneration",
-		"4": "+15 Stamina Regeneration",
+		"1": "+5 Stamina Regeneration",
+		"2": "+10 Stamina Regeneration",
+		"3": "+15 Stamina Regeneration",
+		"4": "+20 Stamina Regeneration",
 		"5": "+25 Stamina Regeneration",
-		"6": "+40 Stamina Regeneration"
+		"6": "+30 Stamina Regeneration"
 	}, {
 		"id": "12",
 		"name": "Cunning",
@@ -144,22 +144,22 @@
 		"id": "14",
 		"name": "Endurance",
 		"type": "2",
-		"1": "Increases Max Stamina by 5",
-		"2": "Increases Max Stamina by 10",
-		"3": "Increases Max Stamina by 15",
-		"4": "Increases Max Stamina by 25",
-		"5": "Increases Max Stamina by 35",
-		"6": "Increases Max Stamina by 50"
+		"1": "Increases Max Stamina by 10",
+		"2": "Increases Max Stamina by 20",
+		"3": "Increases Max Stamina by 40",
+		"4": "Increases Max Stamina by 60",
+		"5": "Increases Max Stamina by 80",
+		"6": "Increases Max Stamina by 100"
 	}, {
 		"id": "15",
 		"name": "Energized",
 		"type": "5",
-		"1": "+5% Weapon Charge rate",
-		"2": "+10% Weapon Charge rate",
-		"3": "+15% Weapon Charge rate",
-		"4": "+20% Weapon Charge rate",
-		"5": "+25% Weapon Charge rate",
-		"6": "+30% Weapon Charge rate"
+		"1": "+10% Weapon Charge rate",
+		"2": "+15% Weapon Charge rate",
+		"3": "+20% Weapon Charge rate",
+		"4": "+25% Weapon Charge rate",
+		"5": "+30% Weapon Charge rate",
+		"6": "+40% Weapon Charge rate"
 	}, {
 		"id": "16",
 		"name": "Evasion",
@@ -194,12 +194,12 @@
 		"id": "19",
 		"name": "Fleet Footed",
 		"type": "2",
-		"1": "Following a Dodge, Movement Speed is temporary increased by 5%",
-		"2": "Following a Dodge, Movement Speed is temporary increased by 10%",
-		"3": "Following a Dodge, Movement Speed is temporary increased by 15%",
-		"4": "Following a Dodge, Movement Speed is temporary increased by 20%",
-		"5": "Following a Dodge, Movement Speed is temporary increased by 25%",
-		"6": "Following a Dodge, Movement Speed is temporary increased by 30%"
+		"1": "Following a Dodge, Movement Speed is temporary increased by 10%",
+		"2": "Following a Dodge, Movement Speed is temporary increased by 15%",
+		"3": "Following a Dodge, Movement Speed is temporary increased by 20%",
+		"4": "Following a Dodge, Movement Speed is temporary increased by 25%",
+		"5": "Following a Dodge, Movement Speed is temporary increased by 30%",
+		"6": "Following a Dodge, Movement Speed is temporary increased by 35%"
 	}, {
 		"id": "20",
 		"name": "Fortress",
@@ -217,8 +217,8 @@
 		"1": "Reduces duration of Shocked status by 25%",
 		"2": "Reduces duration of Shocked status by 50%",
 		"3": "Reduces duration of Shocked status by 75%",
-		"4": "Immune to Shocked status",
-		"5": "Immune to Shocked status. Reduces knockback and damage of hitting electrified shields.",
+		"4": "Reduces duration of Shocked status by 75%. Reduces knockback and damage of hitting electrified shields.",
+		"5": "Reduces duration of Shocked status by 75%. Prevents knockback and damage of hitting electrified shields.",
 		"6": "Immune to Shocked status. Prevents knockback and damage of hitting electrified shields."
 
 	}, {
@@ -289,17 +289,17 @@
 		"2": "+120% Stagger vs Enraged Behemoths",
 		"3": "+130% Stagger vs Enraged Behemoths",
 		"4": "+140% Stagger vs Enraged Behemoths",
-		"5": "+160% Stagger vs Enraged Behemoths",
-		"6": "+180% Stagger vs Enraged Behemoths"
+		"5": "+150% Stagger vs Enraged Behemoths",
+		"6": "+160% Stagger vs Enraged Behemoths"
 	}, {
 		"id": "29",
 		"name": "Rage",
 		"type": "3",
-		"1": "When under 25% health, deal 105% damage",
-		"2": "When under 25% health, deal 108% damage",
+		"1": "When under 30% health, deal 105% damage",
+		"2": "When under 30% health, deal 108% damage",
 		"3": "When under 30% health, deal 110% damage",
-		"4": "When under 30% health, deal 115% damage",
-		"5": "When under 40% health, deal 120% damage",
+		"4": "When under 50% health, deal 115% damage",
+		"5": "When under 50% health, deal 120% damage",
 		"6": "When under 50% health, deal 125% damage"
 	}, {
 		"id": "30",
@@ -355,11 +355,11 @@
 		"id": "35",
 		"name": "Sturdy",
 		"type": "1",
-		"1": "Prevents you from being staggered (60 second cooldown)",
-		"2": "Prevents you from being staggered (55 second cooldown)",
-		"3": "Prevents you from being staggered (50 second cooldown)",
-		"4": "Prevents you from being staggered (40 second cooldown)",
-		"5": "Prevents you from being staggered (30 second cooldown)",
+		"1": "Prevents you from being staggered (120 second cooldown)",
+		"2": "Prevents you from being staggered (100 second cooldown)",
+		"3": "Prevents you from being staggered (80 second cooldown)",
+		"4": "Prevents you from being staggered (60 second cooldown)",
+		"5": "Prevents you from being staggered (40 second cooldown)",
 		"6": "Prevents you from being staggered (15 second cooldown)"
 	}, {
 		"id": "36",
@@ -415,11 +415,11 @@
 		"id": "41",
 		"name": "Wild Frenzy",
 		"type": "4",
-		"1": "When under 25% health, increase attack speed by 5%",
-		"2": "When under 25% health, increase attack speed by 8%",
+		"1": "When under 30% health, increase attack speed by 5%",
+		"2": "When under 30% health, increase attack speed by 8%",
 		"3": "When under 30% health, increase attack speed by 12%",
-		"4": "When under 30% health, increase attack speed by 16%",
-		"5": "When under 40% health, increase attack speed by 20%",
+		"4": "When under 50% health, increase attack speed by 16%",
+		"5": "When under 50% health, increase attack speed by 20%",
 		"6": "When under 50% health, increase attack speed by 25%"
 	}
 	, {
